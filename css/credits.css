@@ -1,0 +1,66 @@
+body,h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Atma', cursive;
+  }
+  
+  html{
+    box-sizing: border-box;
+    overflow-x:hidden;
+  }
+  
+  body, html {
+    height: 100%;
+    line-height: 1.8;
+    font-family: 'Atma', cursive;
+  }
+  body{
+    margin: 0;
+  }
+  
+  a{
+    font-family: 'Atma', cursive;
+    background-color: transparent;
+  }
+  
+  span{
+    font-family: 'Atma', cursive;
+  }
+
+  .text-style{
+      margin: 0px 0px 2px;
+      display: block;
+      text-align: center;
+      box-sizing: border-box;
+      padding-left: 2%;
+      padding-right: 2%
+  }
+
+  .item{
+      padding: 1%;
+      border: 10px solid white;
+      font-family: 'Atma', cursive;
+      border-radius: 25px;
+  }
+
+  .heading{
+    font-family: 'Atma', cursive;
+  }
+
+  .color-green{
+      background-color: rgb(154, 226, 101);
+  }
+
+  .color-orange{
+    background-color: rgb(255, 190, 74);
+  }
+
+  .color-blue{
+    background-color: rgb(46, 177, 255);
+  }
+
+  .color-yellow{
+    background-color: rgb(255, 249, 81);
+  }
+
+  .color-purple{
+    background-color: rgb(183, 96, 229);
+  }

@@ -1,0 +1,11 @@
+.font{
+  font-family: 'Atma', cursive;
+}
+
+html{
+  height: 100%;
+  line-height: 1.8;
+  font-family: 'Atma', cursive;
+  font-size:15px;
+  background: linear-gradient(to bottom, rgb(154, 226, 101), rgb(46, 177, 255), rgb(183, 96, 229));
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Atma&display=swap" rel="stylesheet">
+  <title>Goal Pro Solutions</title>
+</head>
+<body>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top font-bold">
+    <div class="w3-bar w3-card" id="myNavbar">
+      <a href="#home" class="w3-bar-item nav-button text-wide"><img src="/images/play-button-small.png" alt="" style="padding-right: 10px;">Goal Pro Solutions</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item nav-button">About</a>
+        <a href="#contact" class="w3-bar-item nav-button">Contact Us</a>
+        <a href="https://play.google.com/store?hl=en&tab=r8" class="w3-bar-item color-green nav-button">Get Our App</a>
+      </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item nav-button w3-right w3-hide-large w3-hide-medium" onclick="mobilenav_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="sidebar w3-bar-block w3-card w3-animate-left w3-hide-medium w3-hide-large font-bold" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="mobilenav_close()" class="w3-bar-item color-white nav-button w3-large" style="padding-top: 25px;">Close ×</a><hr>
+    <a href="#about" onclick="mobilenav_close()" class="w3-bar-item color-white nav-button" >About</a><hr>
+    <a href="#contact" onclick="mobilenav_close()" class="w3-bar-item color-white nav-button">Contact</a><hr>
+    <a href="https://play.google.com/store?hl=en&tab=r8" onclick="mobilenav_close()" class="w3-bar-item color-green nav-button">Get Our App</a>
+  </nav>
+  
+  <!-- Header with full-height image -->
+  <header class="bgimg-1 display-container w3-grayscale-min" id="home">
+    <div class="color-text-black w3-display-middle" style="text-align: center; padding: 24px 48px;">
+      <h1 style="font-size: 50px; padding-bottom: 70px;">Helping you plan for success</h1>
+    </div> 
+    <div class="w3-display-bottomleft color-text-black w3-xlarge" style="padding:24px 48px">
+        <a href="https://www.facebook.com/Goal-Pro-801066263410948/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+        <a href="https://www.instagram.com/goalpro.education/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://www.youtube.com/channel/UC_uNfeblBglyjftYLHa0dfA" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+    </div>
+  </header>
+  
+  <!-- About Section -->
+  <div class="w3-container" style="padding: 60px 16px" id="about">
+    <h3 class="w3-center font-style font-bold">ABOUT GOAL PRO</h3>
+    <p class="w3-center w3-large font-bold">Helping you Plan for Success</p>
+    <div class="w3-row-padding w3-center" style="margin-top:60px">
+      <div class="w3-quarter">
+        <i class="fa fa-arrow-up w3-margin-bottom w3-jumbo w3-center"></i>
+        <p class="font-bold" style="font-size: 24px;">About Us</p>
+        <div class="about-box-border font-bold" style="padding-bottom: 3px;">
+          <p>Goal Pro Solutions is a platform for all young people to take ownership of their futures through goal setting and planning for success in their lives</p>
+          <p>We achieve this by providing and creating a platform that will bring motivation, encouragement and tools needed to recognize their unique gifts, talents and differences</p>
+          <p>We align ourselves with both the public and private institutions and offer an amazing opportunity for brand awareness and involvement</p>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+        <p class="font-bold" style="font-size: 24px;">Our Heart</p>
+        <div class="heart-box-border font-bold" style="padding-bottom: 15px;">
+          <p>Our heart is to see every one of our youth have a vision for their lives, to help them realize there is so much potential and gifting in each young person</p>
+          <p>We believe in an ideal that everyone is born with a purpose to live out</p>
+          <p>We believe it is our duty to walk alongside and assist them in realizing their potential, passions and gifts</p>
+          <p>We aim to create a safe place that brings freedom, life and growth to our youth</p>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+        <p class="font-bold" style="font-size: 24px;">Our Beliefs</p>
+        <div class="diamond-box-border font-bold">
+          <p>We believe in raising strong, self-aware and confident young people who can lead themselves and those around them well</p>
+          <p>We believe in celebrating uniqueness and difference</p>
+          <p>We believe in supporting entrepreneurship to help curb unemployment </p>
+          <p>We believe in the future of our youth-our amazing generation</p>
+          <p>We believe that our youth are our greatest assets</p>
+        </div>
+      </div>
+      <div class="w3-quarter">
+        <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+        <p class="font-bold" style="font-size: 24px;">Educational Support</p>
+        <div class="settings-box-border font-bold" style="padding-bottom: 30px;">
+          <p>When we equip one young person with Hope and Encouragement, we have given a breath of life to their dreams despite their circumstances</p>
+          <p>We aspire to keep our youth in school to complete their matric and to set goals beyond what they can imagine</p>
+          <p>Life is a gift and we are here to help each young person live their best life possible and to show them there is a plan for them</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="w3-container w3-padding-64 mix-color">
+    <div class="w3-row-padding">
+      <div class="w3-col m6 color-text-black font-bold">
+        <h3 class="font-style">Our Plan to Achieve Success</h3>
+        <div class="w3-half">
+            <h4 class="font-style">* Our App Features *</h4>
+            <p>• Set Goals to Plan for Success •</p>
+            <p>• Seek Daily Motivation •</p>
+            <p>• Record your books read •</p>
+        </div>
+        <div class="w3-half">
+            <h4 class="font-style">* Our Services *</h4>
+            <p>• Motivational and Self-development talks at schools •</p>
+            <p>• Provide weekly motivational and educational videos •</p>
+        </div>
+      </div>
+      <div class="w3-col m6 w3-text-black">
+        <p class="text-wide font-bold"><i class="fa arr fa-arrow-up w3-margin-right"></i>Motivation</p>
+        <div class="color-white">
+          <div class="w3-container w3-center color-white" style="width:100%;">100%</div>
+        </div>
+        <p class="text-wide"><i class="fa dia fa-diamond w3-margin-right"></i>Goal Setting</p>
+        <div class="color-white">
+          <div class="w3-container w3-center color-white" style="width:100%;">100%</div>
+        </div>
+        <p class="text-wide"><i class="fa heart fa-heart w3-margin-right"></i>Creating New Habits</p>
+        <div class="color-white">
+          <div class="w3-container w3-center color-white" style="width:100%;">100%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container color-white" style="padding:128px 16px" id="contact">
+    <h3 class="w3-center font-style font-bold">Contact Us</h3>
+    <p class="w3-center w3-large font-bold">Lets get in touch. Send us an Email or give us a call:</p>
+    <div style="margin-top:48px">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right font-bold"></i> Durban, RSA</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right font-bold"></i> Catherine De Vincenzo: 079 1133 822</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right font-bold"></i> Mthoko Shange: 072 741 1614</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right font-bold"> </i> Email: info@goalpro.co.za</p>
+      <br>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="w3-center w3-padding-64 mix-color font-bold">
+    <a href="#home" class="color-white top-button"><i class="fa fa-arrow-up w3-margin-right color-white"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.facebook.com/Goal-Pro-801066263410948/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+      <a href="https://www.instagram.com/goalpro.education/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://www.youtube.com/channel/UC_uNfeblBglyjftYLHa0dfA" target="_blank"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+    </div>
+    <p>Powered by <a href="http://www.goalpro.co.za/" title="Goal Pro" target="_blank" class="color-hover-text-white">Goal Pro</a> and <a href="https://www.varsitycollege.co.za/" target="_blank" class="color-hover-text-white">Varsity College</a></p>
+    <p><a href="/html/credits.html" title="Goal Pro" target="_blank" class="color-hover-text-white">Credits</a></p>
+  </footer>
+   
+  <script src="/scripts/index.js"></script>
+</body>
+</html>
