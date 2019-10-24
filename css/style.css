@@ -265,7 +265,8 @@ a{color:inherit}
 .w3-show-inline-block{display:inline-block!important}
 
 /*screen size - Scaling In & out*/
-@media (max-width:1205px){.w3-auto{max-width:95%}}
+@media (max-width:1205px){.w3-auto{max-width:95%}
+.slogan{font-size: 60px;}}
 
 @media (max-width:600px){
 .w3-modal-content{margin:0 10px;width:auto!important}
@@ -276,7 +277,7 @@ a{color:inherit}
 .w3-dropdown-content{position:relative}	
 
 .w3-hide-small{display:none!important}
-
+.slogan{font-size: 30px;}
 .w3-mobile{display:block;width:100%!important}
 .w3-bar-item.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-click.w3-mobile{text-align:center}
 .w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile,.w3-dropdown-hover.w3-mobile .nav-button,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile,.w3-dropdown-click.w3-mobile .nav-button{width:100%}}
@@ -294,7 +295,8 @@ a{color:inherit}
 
 @media (max-width:992px){.sidebar.w3-collapse{display:none}
 .w3-main{margin-left:0!important;margin-right:0!important}
-.w3-auto{max-width:100%}}
+.w3-auto{max-width:100%}
+.slogan{font-size: 40px;}}
 /*End Screen Scale*/
 
 .w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}
@@ -472,3 +474,4 @@ a{color:inherit}
   color: rgb(255, 190, 74);
   font-weight: bold;
 }
+
